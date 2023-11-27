@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+p {
+  margin: 0;
+}
+
+/* Header */
+nav {
+  background-color: black;
+  color: #C4D0DD;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px 5px 0px;
+  height: 50px;
+}
+
+nav a {
+  color: #C4D0DD;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  line-height: .5;
+}
+
+nav a {
+  padding: 0 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  background-color: #C4D0DD;
+}
+
+#logo {
+  color: black;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+/* Hero Banner */
+
+.hero-banner {
+  height: 150px;
+  width: 100%;
+  background-image: url('../images/02-hero-bg.jpg');
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-banner div {
+  position: absolute;
+  right: 75px;
+  bottom: 20px;
+  background-color: #C4D0DD;
+  padding: 5px 10px;
+}
+
+/* About me Section */
+
+.page-section {
+  display: flex;
+}
+
+.page-section>h2 {
+  width: 15%;
+  font-size: 2.5rem;
+  padding-left: 50px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+section>hr {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px 30px;
+}
+
+.page-section>div {
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Work Section */
+#surf {
+  height: 400px;
+  position: relative;
+  border: 5px solid #C4D0DD;
+  background-image: url('../images/02-portfolio-4.jpg');
+  background-size: cover;
+}
+
+#surf>.title {
+  background-color: #C4D0DD;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+#fourImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+
+}
+
+.work-small {
+  width: 48%;
+  height: 120px;
+  position: relative;
+  background-size: cover;
+  border: 5px solid #C4D0DD;
+}
+
+.work-small>div {
+  position: absolute;
+  bottom: 20px;
+  background-color: #C4D0DD;
+  padding: 10px 15px;
+}
+
+#led {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+#calc {
+  background-image: url('../images/02-portfolio-2.jpg');
+}
+
+#pastel {
+  background-image: url('../images/02-portfolio-3.jpg');
+}
+
+#run {
+  background-image: url('../images/02-run-buddy.jpg');
+}
+
+/* Footer */
+.contact-details>ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer li {
+  line-height: .5;
+}
+
+footer a {
+  padding: 0 8px;
+}
+
+
+footer hr {
+
+  border-top: 3px solid #333;
+
+}
