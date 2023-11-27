@@ -199,14 +199,66 @@ section>hr {
 
 /* Media Queries */
 
+/* Medium Screens */
+
 @media screen and (max-width: 900px) {
   nav a {
-font-size: .8rem;
+    font-size: .8rem;
   }
+
   .page-section>h2 {
     font-size: 1.5rem;
     padding-top: 20px;
     padding-left: 35px;
   }
-  
+}
+
+/* Small Screens */
+
+@media screen and (max-width: 600px) {
+  #logo {
+    padding-left: 5px;
+  }
+
+  nav {
+
+    justify-content: space-between;
+    padding: 5px 10px 5px 0px;
+    height: 30px;
+  }
+
+  nav ul {
+    gap: 5px;
+  }
+
+  nav li a {
+    letter-spacing: -0.09rem;
+  }
+
+  .page-section>h2 {
+    font-size: 1.3rem;
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+
+  #surf {
+    height: 200px;
+
+  }
+
+  #surf>.title {
+    width: 50%;
+
+  }
+
+  .work-small {
+    width: 98%;
+    height: 200px;
+  }
+
+  .contact ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+  }
 }
