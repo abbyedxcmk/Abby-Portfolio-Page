@@ -1,3 +1,5 @@
+[deployed page link](https://abbyedxcmk.github.io/challenge1/)
+
 
 # colour palette
 ![colour palette](./readme-images/colourpalette.jpg)
