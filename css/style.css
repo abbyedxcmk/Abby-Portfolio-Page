@@ -178,23 +178,23 @@ section>hr {
   background-image: url('../images/02-run-buddy.jpg');
 }
 
-/* Footer */
+/* Contact Section */
 .contact-details>ul {
   display: flex;
   justify-content: space-between;
 }
 
 
-footer li {
-  line-height: .5;
+.contact li {
+  line-height: 1;
 }
 
-footer a {
+.contact a {
   padding: 0 8px;
 }
 
 
-footer hr {
+.contact hr {
 
   border-top: 3px solid #333;
 
